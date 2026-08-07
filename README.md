@@ -13,3 +13,5 @@ Landing page responsiva desenvolvida em HTML5 e CSS3, inspirada na TripleTen Art
 - Media Queries
 
 ## Link do projeto
+
+[Acesse o projeto](https://iiagocardoso.github.io/web_project_homeland/)
