@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer__copyright {
+  width: 166px;
+  height: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+}
