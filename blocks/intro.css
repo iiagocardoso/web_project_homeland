@@ -1,9 +1,3 @@
-.content__intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .intro {
   width: 100%;
   height: auto;
