@@ -8,7 +8,7 @@
   padding-top: 118px;
 }
 
-.photo__grid__image {
+.photo__grid_image {
   width: 100%;
   height: auto;
 }
@@ -20,7 +20,7 @@
     margin: auto 24px;
   }
 
-  .photo__grid__image {
+  .photo__grid_image {
     width: 100%;
     height: auto;
   }
@@ -33,7 +33,7 @@
     margin: auto 16px;
   }
 
-  .photo__grid__image {
+  .photo__grid_image {
     width: 100%;
     height: auto;
   }
