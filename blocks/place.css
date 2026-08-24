@@ -4,6 +4,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 460px auto;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 .place__title {
@@ -32,11 +34,9 @@
 }
 
 .place__city-artist {
-  height: 67px;
   grid-column: 2;
   grid-row: 1 / 2;
-  align-self: center;
-  margin-left: 40px;
+  align-self: flex-end;
 }
 
 .place__artist {
@@ -62,7 +62,6 @@
 .place__text {
   grid-column: 2;
   grid-row: 2 / 4;
-  margin-left: 40px;
 }
 
 .place__paragraph {
@@ -79,7 +78,6 @@
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 1;
-  margin-top: 48px;
   display: inline-block;
   justify-self: start;
   align-self: flex-start;
@@ -104,7 +102,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 340px 1fr;
     grid-template-rows: auto 340px auto;
     margin-left: 24px;
     margin-right: 24px;
@@ -112,7 +110,6 @@
 
   .place__title {
     width: 340px;
-    height: 92px;
     font-size: 42px;
     grid-column: 1;
     grid-row: 1 / 2;
@@ -153,7 +150,8 @@
   }
 
   .place__title {
-    width: 288px;
+    width: 100%;
+    box-sizing: border-box;
     height: auto;
     font-size: 32px;
     grid-column: 1;
@@ -163,7 +161,6 @@
   }
 
   .place__city-artist {
-    max-width: 288px;
     height: auto;
     grid-column: 1;
     grid-row: 2 / 3;
@@ -188,7 +185,6 @@
   }
 
   .place__button {
-    width: 288px;
     font-size: 14px;
     box-sizing: border-box;
     justify-self: center;
